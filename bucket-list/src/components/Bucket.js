@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import BucketForm from './BucketForm';
 
+// Is this 'bucket item' or 'list item.'
 function Bucket(props) {
   const [edit, setEdit] = useState({
     id: null,
